@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result | PredictX</title>
+    <link rel="stylesheet" href="/static/styles/result.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;
+    0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/" class="Project">Predict X</a>
+    </header>
+
+    <div class="container">
+
+        <div class="card" id="result">
+            <p class="message">Hi {{ name }}</p>
+            <ul>
+                <li><strong>Age                     :   </strong> {{ age }}</li>
+                <li><strong>Flight Distance         :   </strong> {{ flight_distance }}</li>
+                <li><strong>Inflight Entertainment  :   </strong> {{ inflight_entertainment }}</li>
+                <li><strong>Baggage Handling        :   </strong> {{ baggage_handling }}</li>
+                <li><strong>Cleanliness             :   </strong> {{ cleanliness }}</li>
+                <li><strong>Departure Delay         :   </strong> {{ departure_delay }}</li>
+                <li><strong>Arrival Delay           :   </strong> {{ arrival_delay }}</li>
+                <li><strong>Gender                  :   </strong> {{ gender }}</li>
+                <li><strong>Customer Type           :   </strong> {{ customer_type }}</li>
+                <li><strong>Class                   :   </strong> {{ flight_class }}</li>
+                <li><strong>Type of Travel          :   </strong> {{ travel_type }}</li>
+            </ul>
+            <div class="prediction">
+                <p><strong>Prediction   :  </strong> {{ output }}</p>
+            </div>
+            <div class="buttons">
+                <a id="back" href="/form">Back</a>
+                <a id="home" href="/">Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

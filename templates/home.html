@@ -15,47 +15,49 @@
 
 <body>
     <header>
-        <a href="" class="Project">Predict X</a>
+        <a href="/" class="Project">Predict X</a>
         <ul class="navlist">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="/project">Project</a></li>
-            <li><a href="/contact">Contact</a></li>
-
+            <li><a href="#home">Home</a></li>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <div class="description">
-        <section class="labels" id="overview">
-            <h1>PredictX</h1>
+    <div id="home" class="bg">
+        <img src="/static/files/astro_bg.jpg" alt="">
+    </div>
+    <div id="start" class="start"><a href="/form">Start</a>
+    </div>
+
+    <div id="project" class="description">
+        <section class="labels">
+            <h2>PredictX</h2>
             <p>PredictX is an advanced machine learning project designed to leverage Python for accurate and insightful
                 predictions across various domains. By employing state-of-the-art algorithms and data processing
                 techniques, PredictX aims to deliver actionable insights and forecasts to drive informed
                 decision-making.</p>
         </section>
-
-        <section class="labels" id="objective">
+        <section class="labels">
             <h2>Objective</h2>
             <p>The primary goal of PredictX is to harness the power of machine learning to predict future outcomes based
                 on historical data, offering valuable insights for business strategy, risk management, and operational
                 efficiency.</p>
         </section>
-
-        <section class="labels" id="features">
+        <section class="labels">
             <h2>Key Features</h2>
             <ul>
-                <li><strong>Data Preprocessing:</strong> Efficiently cleans and transforms raw data into a suitable
+                <li><strong>Data Preprocessing :</strong> Efficiently cleans and transforms raw data into a suitable
                     format for analysis, ensuring high-quality input for machine learning models.</li> <br>
-                <li><strong>Predictive Modeling:</strong> Utilizes sophisticated algorithms such as regression,
+                <li><strong>Predictive Modeling :</strong> Utilizes sophisticated algorithms such as regression,
                     classification, and time-series analysis to generate reliable predictions.</li> <br>
-                <li><strong>Visualization:</strong> Provides intuitive visualizations to present prediction results and
+                <li><strong>Visualization :</strong> Provides intuitive visualizations to present prediction results and
                     trends in an easily understandable manner.</li>
             </ul>
         </section>
-
-
     </div>
 
-    <div class="profile">
+    <div id="about" class="profile">
         <img src="/static/files/pic.JPG" alt="Your Picture">
         <div class="details">
             <h2>Himanshu Kumawat</h2>
@@ -65,13 +67,16 @@
         </div>
     </div>
 
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/iamhimanshu98">LinkedIn</a>
-        <a href="https://github.com/iamhimanshu98">GitHub</a>
-        <a href="https://instagram.com/i.am.himanshu98/">Instagram</a>
-        <!-- <p class="greeting">Thank you for visiting!</p> -->
+    <div id="contact" class="social-links">
+        <div class="links">
+            <a href="https://www.linkedin.com/in/iamhimanshu98">LinkedIn</a>
+            <a href="https://github.com/iamhimanshu98">GitHub</a>
+            <a href="https://leetcode.com/iamhimanshu98/">Leetcode</a>
+            <a href="https://instagram.com/i.am.himanshu98/">Instagram</a>
+            
+        </div>
+        <p class="greeting">Himanshu K | copyright © predictX.com</p>
     </div>
-    
 
 </body>
 
